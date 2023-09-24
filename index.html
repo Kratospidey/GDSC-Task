@@ -3,21 +3,76 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
 		<title>Resume</title>
 	</head>
 	<body>
 		<div id="hero">
-            <div id="hero-navbar"></div>
-            <div id="hero-main"></div>
-        </div>
+			<div id="hero-navbar">
+				<svg
+					id="mode-icon"
+					width="75"
+					height="75"
+					viewBox="0 0 75 75"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M12.9464 25C9.51277 25 6.21981 23.636 3.7919 21.2081C1.36399 18.7802 0 15.4872 0 12.0536C0 6.80814 3.01338 2.10504 7.67909 0.0743572C7.84352 0.00269184 8.02573 -0.0177837 8.20197 0.0155989C8.37821 0.0489814 8.54031 0.134674 8.66715 0.261511C8.79399 0.388348 8.87968 0.550447 8.91306 0.726688C8.94644 0.902928 8.92597 1.08514 8.8543 1.24957C8.31859 2.47948 8.03567 4.0548 8.03567 5.80368C8.03567 11.9577 13.0423 16.9643 19.1963 16.9643C20.9452 16.9643 22.5205 16.6814 23.7504 16.1457C23.9149 16.074 24.0971 16.0536 24.2733 16.0869C24.4496 16.1203 24.6117 16.206 24.7385 16.3328C24.8653 16.4597 24.951 16.6218 24.9844 16.798C25.0178 16.9743 24.9973 17.1565 24.9256 17.3209C22.895 21.9866 18.1919 25 12.9464 25Z"
+						fill="black"
+					/>
+				</svg>
+				<!-- took this svg from the figma file -->
+				<div id="hero-links">
+					<a>Works</a>
+					<a>Blog</a>
+					<a>Contact</a>
+				</div>
+			</div>
+			<div id="hero-main">
+				<div id="hero-main-text">
+					<h1 id="hero-catchline">Hi, I am John, Creative Technologist</h1>
+					<p>
+						Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+						sint. Velit officia consequat duis enim velit mollit. Exercitation
+						veniam consequat sunt nostrud amet.
+					</p>
+					<button type="button" id="download-button">Download Resume</button>
+				</div>
+				<div id="hero-main-pfp">
+					<svg
+						width="273"
+						height="273"
+						viewBox="0 0 273 273"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<defs>
+							<radialGradient
+								id="tearGradient"
+								cx="0.5"
+								cy="1"
+								r="1"
+								gradientUnits="objectBoundingBox"
+							>
+								<stop offset="0%" stop-color="#EDF7FA" stop-opacity="1" />
+								<stop offset="100%" stop-color="#EDF7FA" stop-opacity="0" />
+							</radialGradient>
+						</defs>
+						<circle cx="136.5" cy="136.5" r="136.5" fill="url(#tearGradient)" />
+					</svg>
+					<img id="pfp" src="assets/guy.png" />
+				</div>
+			</div>
+		</div>
 		<div id="rp">
-            <div id="rp-header"></div>
-            <div id="rp-posts"></div>
-        </div>
+			<div id="rp-header"></div>
+			<div id="rp-posts"></div>
+		</div>
 		<div id="fw">
-            <div id="fw-header"></div>
-            <div id="fw-works"></div>
-        </div>
+			<div id="fw-header"></div>
+			<div id="fw-works"></div>
+		</div>
 		<div id="footer">
 			<div id="footer-icons"></div>
 		</div>

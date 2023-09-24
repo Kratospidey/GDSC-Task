@@ -1,0 +1,100 @@
+body {
+	font-family: "Heebo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+#hero-navbar {
+	display: flex;
+	flex-direction: row;
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-bottom: 100px;
+	padding-left: 200px;
+
+}
+
+#mode-icon {
+	margin-right: auto;
+}
+
+#hero-links {
+	display: flex;
+	gap: 20px;
+}
+
+#hero-links > a {
+	font-weight: bold;
+}
+
+#download-button {
+	border-radius: 2px;
+	background-color: #ff6464;
+	color: white;
+	border: 0px;
+	padding: 10px;
+	font-weight: 600;
+}
+
+#hero-main {
+	display: flex;
+	flex-wrap: wrap-reverse;
+	gap: 100px;
+	padding-right: 70px;
+}
+
+#hero-main-text {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	width: 500px;
+	margin-right: auto;
+	padding-left: 200px;
+}
+
+#hero-catchline {
+	margin-bottom: 0px;
+	width: 440px
+}
+
+#pfp {
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 300px;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+#hero-main-pfp {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	background-color: transparent;
+}
+
+#pfp,
+#hero-main-pfp svg {
+	position: absolute;
+	border-radius: 50%;
+}
+
+#hero-main-pfp svg {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+/* size change */
+
+
+#hero-links > a {
+	font-size: x-large;
+}
+
+#hero-catchline {
+	font-size: 5ch;
+}
