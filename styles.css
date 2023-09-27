@@ -47,6 +47,7 @@
 
 #hamburger {
 	display: none;
+	cursor: default;
 }
 
 dialog {
